@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { StrictMode } from 'react';
 import './index.css';
-import Hello from './Hello.js';
+import App from './containers/App.js';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Hello/>
-  </React.StrictMode>
+  <StrictMode> 
+    <App/>
+  </StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
