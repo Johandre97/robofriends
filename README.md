@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Robotfriends
+
+This project is based on the The Complete Web Developer in 2023: Zero to Mastery Course instructed by Andrei Neagoie.
+
+This uses React & JavaScript to display a basic understanding of interactive and reactive webpages.
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
